@@ -13,7 +13,6 @@ function clear() {
   const content = document.getElementById("content");
   content.innerHTML = "";
   for (const button of buttons) {
-    console.log(button);
     button.classList.remove("page-selected");
   }
 }
